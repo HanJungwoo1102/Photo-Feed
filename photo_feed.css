@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    width:1256px;
+}
+#photo_feed {
+    padding:0 50px;
+    width:1256px;
+}
+.clearbox{
+    display:block;
+    clear:both;
+}
+
+/* card */
+.card{
+    display:inline-block;
+    margin:20px 10px;
+    padding-top:10px;
+    float:left;
+}
+.card_user_profile{
+    display:inline-block;
+    float:left;
+    margin-right:10px;
+    width:36px;
+    height:36px;
+}
+.card_user_profile img{
+    width:36px;
+    height:36px;
+}
+.card_user_name {
+    display:inline-block;
+    float:left;
+    padding:10px 0px 7px 0px;
+    font-family: AppleSDGothicNeo;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.74);
+
+}
+.card_photo{
+    margin-top:10px;
+    position:relative;
+    width:268px;
+    height:268px;
+}
+.card_photo img{
+    width:268px;
+    height:268px;
+    border-radius:10px;
+}
+.card_btnScrap{
+    position:absolute;
+    top:226px;
+    left:226px;
+    width:32px;
+    height:32px;
+}
+.card_btnScrap img{
+    width:24px;
+    height:24px;
+}
+
+/* scrap 한 것만 보기 button */
+#btn_only_scrap {
+    display:block;
+    margin-left:10px;
+    margin-top:30px;
+    width:268px;
+    height:24px;
+
+}
+#btn_only_scrap div {
+    margin-right:6px;
+    width:24px;
+    height:24px;
+    float:left;
+    border:1px solid #cccccc;
+    border-radius: 50%;
+}
+
+#btn_only_scrap p {
+    padding:3px 0px 2px 0px;
+    
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #424242;
+}
