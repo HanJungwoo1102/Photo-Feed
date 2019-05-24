@@ -3,11 +3,13 @@
     padding:0;
 }
 body{
-    width:1256px;
+
 }
 #photo_feed {
     padding:0 50px;
     width:1256px;
+    margin:0 auto;
+
 }
 .clearbox{
     display:block;

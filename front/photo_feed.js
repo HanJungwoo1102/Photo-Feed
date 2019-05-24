@@ -91,7 +91,6 @@ function set_btn_only_scrap(){
             // 눌려 있지 않을 때 누르면 scrap 한것만 보여주기
             $('#btn_only_scrap img').attr('src','./img/bt-checkbox-checked.png');
             for(var i=0;i<$('.card').length ; i++){
-                console.log($('.card')[i].id);
                 if(localStorage.getItem($('.card')[i].id)){
                     // local storage 에 있는 card 인 경우 (scrap)
                     $(`#${$('.card')[i].id}`).show();
@@ -117,10 +116,3 @@ function set_btn_only_scrap(){
 
 
 
-
-
-// scrap 확인은 local storage 로 하기
-
-// TODO
-
-// 5. 화면 중앙
